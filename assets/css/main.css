@@ -1689,7 +1689,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		color: #fff !important;
+		color: rgb(255, 255, 255) !important;
 		text-decoration: none;
 		font-weight: 700;
 		border: 0;
@@ -1700,6 +1700,7 @@ input, select, textarea {
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
 		background-color: #43B3E0;
+		background-color: rgba(9, 0, 139, 0.863);
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1924,8 +1925,9 @@ input, select, textarea {
 /* Box */
 
 	.box {
+		
 		background: #fff;
-		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		box-shadow: inset 0px 0px 0px 1px rgba(119, 0, 255, 0.658), 0px 2px 3px 0px rgba(94, 65, 117, 0.397);
 		text-align: center;
 		padding: 2em;
 	}
@@ -1941,6 +1943,9 @@ input, select, textarea {
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
 		}
+		.box.style2 p {
+			font-weight: bold;
+		}
 
 		.box.style2 .image {
 			position: relative;
@@ -1950,7 +1955,13 @@ input, select, textarea {
 			width: auto;
 		}
 
-/* Icons */
+#clg {
+	width: 20rem;
+}
+
+
+
+		/* Icons */
 
 	.icon {
 		text-decoration: none;
