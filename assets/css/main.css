@@ -1959,7 +1959,9 @@ input, select, textarea {
 	width: 20rem;
 }
 
-
+#arch {
+	width: 20rem;
+}
 
 		/* Icons */
 
